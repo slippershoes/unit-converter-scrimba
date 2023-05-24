@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="hero">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="number" id="convert-input" max="99999"></input>
+        </div>
+        <div id="results">
+            <div class="section">
+                <p class="section-header">Length (Meter/Feet)</p>
+                <p id="length-results"></p>
+            </div>
+            <div class="section">
+                <p class="section-header">Volume (Liters/Gallons)</p>
+                <p id="volume-results"></p>
+            </div>
+            <div class="section">
+                <p class="section-header">Mass (Kilograms/Pounds)</p>
+                <p id="mass-results"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
